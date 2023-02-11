@@ -23,15 +23,17 @@ body {
   height: 200px;
   width: 300px;
   object-fit: cover;
+  border-radius: 4px;
 }
 .photographer_name {
   padding-top: 10px;
   color: #222;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 @media (max-width: 678px) {
   body {
-    margin: 50px;
+   margin: 40px;
+   overflow: hidden;
   }
   .photo {
     display: flex;
